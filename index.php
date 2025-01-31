@@ -23,7 +23,7 @@
         <section id="ejemplos-guias">
             <h2>Ejemplos de las Guías</h2>
             <ul>
-            <li><a href="Guia1_NR221019/Ejercicio1/ejercicio1.php">Ejercicio 1 - Guía 1</a></li>
+            <li><a href="Guia1_NR221019/Ejercicio1/partehtmlphp.php">Ejercicio 1 - Guía 1</a></li>
                 <li><a href="guias/guia2/ejemplos/ejemplo2.php">Ejemplo 2 - Guía 2</a></li>
                 <!-- Agrega más enlaces según sea necesario -->
             </ul>
