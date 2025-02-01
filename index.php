@@ -13,28 +13,31 @@
             <ul>
                 
                 <li><a href="#ejemplos-guias">Ejemplos de las Guías</a></li>
-                <li><a href="#ejercicios-discusion">Ejercicios de Discusión</a></li>
+                <li><a href="#ejercicios-discusion">Ejercicios Complementarios</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        
 
+        
         <section id="ejemplos-guias">
-            <h2>Ejemplos de las Guías</h2>
+        <h2>Ejemplos de las Guías</h2>
+            <h1>Guia 1</h1>
             <ul>
             <li><a href="Guia1_NR221019/Ejercicio1/partehtmlphp.php">Ejercicio 1 - Guía 1</a></li>
-                <li><a href="guias/guia2/ejemplos/ejemplo2.php">Ejemplo 2 - Guía 2</a></li>
-                <!-- Agrega más enlaces según sea necesario -->
+            <li><a href="Guia1_NR221019/Ejercicio2/uso_variable.php">Ejercicio 2 - Guía 1</a></li>
+            <li><a href="Guia1_NR221019/Ejercicio3/opera_aritmeticos.php">Ejercicio 3 - Guía 1</a></li>
+            <li><a href="Guia1_NR221019/Ejercicio4/tiposdatos.php">Ejercicio 4 - Guía 1</a></li>
+            <li><a href="Guia1_NR221019/Ejercicio5/ingresodatos.html">Ejercicio 5 - Guía 1</a></li>
             </ul>
         </section>
 
         <section id="ejercicios-discusion">
-            <h2>Ejercicios de Discusión</h2>
+            <h2>Ejercicios Complementarios</h2>
             <ul>
-                <li><a href="guias/guia1/ejercicios/ejercicio1.php">Ejercicio 1 - Guía 1</a></li>
+                <li><a href="Guia1_NR221019/EjerComplementario/operadores.php">Ejercicio 1 - Guía 1</a></li>
                 <li><a href="guias/guia2/ejercicios/ejercicio2.php">Ejercicio 2 - Guía 2</a></li>
-                <!-- Agrega más enlaces según sea necesario -->
+                
             </ul>
         </section>
     </main>
