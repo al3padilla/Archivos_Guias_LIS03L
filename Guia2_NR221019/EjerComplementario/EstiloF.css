@@ -1,0 +1,9 @@
+body {
+    background-color: #44cce4;
+}
+.card {
+    border-radius: 10px;
+}
+.card-header {
+    font-size: 1.2rem;
+}
