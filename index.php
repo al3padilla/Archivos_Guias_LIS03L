@@ -30,13 +30,22 @@
             <li><a href="Guia1_NR221019/Ejercicio4/tiposdatos.php">Ejercicio 4 - Guía 1</a></li>
             <li><a href="Guia1_NR221019/Ejercicio5/ingresodatos.html">Ejercicio 5 - Guía 1</a></li>
             </ul>
+
+            <h1>Guia 2</h1>
+            <ul>
+            <li><a href="Guia2_NR221019/Ejemplo1/bisiesto.php">Ejemplo 1 - Guía 2</a></li>
+            <li><a href="Guia2_NR221019/Ejemplo2/salario.html">Ejemplo 2 - Guía 2</a></li>
+            <li><a href="Guia2_NR221019/Ejemplo3/compararnumeros.html">Ejemplo 3 - Guía 2</a></li>
+            <li><a href="Guia2_NR221019/Ejemplo4/convertir.php">Ejemplo 4 - Guía 2</a></li>
+            <li><a href="Guia2_NR221019/Ejemplo5/convmonedas.php">Ejemplo 5 - Guía 2</a></li>
+            </ul>
         </section>
 
         <section id="ejercicios-discusion">
             <h2>Ejercicios Complementarios</h2>
             <ul>
                 <li><a href="Guia1_NR221019/EjerComplementario/operadores.php">Ejercicio 1 - Guía 1</a></li>
-                <li><a href="guias/guia2/ejercicios/ejercicio2.php">Ejercicio 2 - Guía 2</a></li>
+               <li><a href="Guia2_NR221019/EjerComplementario/FormPrin.html">Ejercicio 1 - Guía 2</a></li>
                 
             </ul>
         </section>
