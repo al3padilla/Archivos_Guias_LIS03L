@@ -3,65 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Índice - Proyecto de Guías lis 03l</title>
+    <title>Proyecto de Guías Alexandra Padilla</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo_index.css">
 </head>
 <body>
-    <header>
+    <header class=" py-3">
         <h1>Proyecto de Guías Alexandra Padilla</h1>
         <nav>
             <ul>
                 
                 <li><a href="#ejemplos-guias">Ejemplos de las Guías</a></li>
-                <li><a href="#ejercicios-discusion">Ejercicios Complementarios</a></li>
+                <li><a href="#ejercicios-complementarios">Ejercicios Complementarios</a></li>
             </ul>
         </nav>
     </header>
-    <main>
 
-        
-        <section id="ejemplos-guias">
-        <h2>Ejemplos de las Guías</h2>
-            <h1>Guia 1</h1>
-            
-            <li><a href="Guia1_NR221019/Ejercicio1/partehtmlphp.php">Ejemplo 1 - Guía 1</a></li>
-            <li><a href="Guia1_NR221019/Ejercicio2/uso_variable.php">Ejemplo 2 - Guía 1</a></li>
-            <li><a href="Guia1_NR221019/Ejercicio3/opera_aritmeticos.php">Ejemplo 3 - Guía 1</a></li>
-            <li><a href="Guia1_NR221019/Ejercicio4/tiposdatos.php">Ejemplo 4 - Guía 1</a></li>
-            <li><a href="Guia1_NR221019/Ejercicio5/ingresodatos.html">Ejemplo 5 - Guía 1</a></li>
-            </ul>
-
-            <h1>Guia 2</h1>
-            <ul>
-            <li><a href="Guia2_NR221019/Ejemplo1/bisiesto.php">Ejemplo 1 - Guía 2</a></li>
-            <li><a href="Guia2_NR221019/Ejemplo2/salario.html">Ejemplo 2 - Guía 2</a></li>
-            <li><a href="Guia2_NR221019/Ejemplo3/compararnumeros.html">Ejemplo 3 - Guía 2</a></li>
-            <li><a href="Guia2_NR221019/Ejemplo4/convertir.php">Ejemplo 4 - Guía 2</a></li>
-            <li><a href="Guia2_NR221019/Ejemplo5/convmonedas.php">Ejemplo 5 - Guía 2</a></li>
-            </ul> 
-
-            <h1>Guia 3</h1>
-            <ul>
-            <li><a href="Guia3_NR221019/Ejemplo1/ejemplo1.php">Ejemplo 1 - Guía 3</a></li>
-            <li><a href="Guia3_NR221019/Ejemplo2/ejemplo2.php">Ejemplo 2 - Guía 3</a></li>
-            <li><a href="Guia3_NR221019/Ejemplo3/indexg3.html">Ejemplo 3 - Guía 3</a></li>
-            <li><a href="Guia3_NR221019/Ejemplo4/index_e4..php">Ejemplo 4 - Guía 3</a></li>
-            </ul> 
-            
+    <main class="container my-4">
+        <section id="ejemplos-guias" class="mb-4">
+            <h2 class="text-center">Ejemplos de las Guías</h2>
+            <div class="accordion" id="accordionGuides">
+                <div class="accordion-item shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#guia1">
+                            Guía 1
+                        </button>
+                    </h2>
+                    <div id="guia1" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="Guia1_NR221019/Ejercicio1/partehtmlphp.php">Ejemplo 1</a></li>
+                                <li class="list-group-item"><a href="Guia1_NR221019/Ejercicio2/uso_variable.php">Ejemplo 2</a></li>
+                                <li class="list-group-item"><a href="Guia1_NR221019/Ejercicio3/opera_aritmeticos.php">Ejemplo 3</a></li>
+                                <li class="list-group-item"><a href="Guia1_NR221019/Ejercicio4/tiposdatos.php">Ejemplo 4</a></li>
+                                <li class="list-group-item"><a href="Guia1_NR221019/Ejercicio5/ingresodatos.html">Ejemplo 5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#guia2">
+                            Guía 2
+                        </button>
+                    </h2>
+                    <div id="guia2" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul class="list-group">
+                                <li class="list-group-item"><a href="Guia2_NR221019/Ejemplo1/bisiesto.php">Ejemplo 1</a></li>
+                                <li class="list-group-item"><a href="Guia2_NR221019/Ejemplo2/salario.html">Ejemplo 2</a></li>
+                                <li class="list-group-item"><a href="Guia2_NR221019/Ejemplo3/compararnumeros.html">Ejemplo 3</a></li>
+                                <li class="list-group-item"><a href="Guia2_NR221019/Ejemplo4/convertir.php">Ejemplo 4</a></li>
+                                <li class="list-group-item"><a href="Guia2_NR221019/Ejemplo5/convmonedas.php">Ejemplo 5</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section id="ejercicios-discusion">
-            <h2>Ejercicios Complementarios</h2>
-            <ul>
-                <li><a href="Guia1_NR221019/EjerComplementario/operadores.php">Ejercicio 1 - Guía 1</a></li>
-                <li><a href="Guia2_NR221019/EjerComplementario/FormPrin.html">Ejercicio 1 - Guía 2</a></li> 
-                <li><a href="Guia3_NR221019/EjerComplementario/index_ejerG3.php">Ejercicio 2 - Guía 3</a></li>
-                
+        <section id="ejercicios-discusion" class="mb-4">
+            <h2 class="text-center">Ejercicios Complementarios</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="Guia1_NR221019/EjerComplementario/operadores.php">Ejercicio 1 - Guía 1</a></li>
+                <li class="list-group-item"><a href="Guia2_NR221019/EjerComplementario/FormPrin.html">Ejercicio 1 - Guía 2</a></li>
+                <li class="list-group-item"><a href="Guia3_NR221019/EjerComplementario/index_ejerG3.php">Ejercicio 2 - Guía 3</a></li>
             </ul>
         </section>
     </main>
-    <footer>
+
+    <footer class="py-0">
         <p>© 2025 Proyecto de Guías NR221019</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
