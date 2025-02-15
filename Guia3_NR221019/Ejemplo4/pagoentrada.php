@@ -179,7 +179,7 @@ Información del formulario
 ?>
  </tbody>
  </table>
- <a href="index_e4..php">Ingresar otra película</a>
+ <a href="index_e4.php">Ingresar otra película</a>
 </div>
 </body>
 </html>
