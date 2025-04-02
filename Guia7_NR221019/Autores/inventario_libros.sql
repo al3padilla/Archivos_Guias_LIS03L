@@ -19,8 +19,9 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `inventario_libros`
 --
-CREATE DATABASE inventario_libros;
-USE inventario_libros;
+-- CREATE DATABASE inventario_libros;
+USE archivog_inventario_libros;  --  nombre de la base de datos de GoogieHost
+
 
 DELIMITER $$
 --
